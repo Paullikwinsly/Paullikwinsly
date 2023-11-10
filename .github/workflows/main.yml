@@ -1,0 +1,5 @@
+- name: Configure Node.js environment- name: Configure Node.js environment
+  uses: actions/setup-node@v4.0.0
+  with:
+    # Always set authentication in npmrc.
+    always-auth: # optional, the default
